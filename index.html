@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Survey Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="shortcut icon" href="cat.svg">
+</head>
+<body>
+    <h1 id="title">survey form</h1>
+    <p id="description">just a random form because i'm trying to get a cerfificate from freeCodeCamp</p>
+    <form action="" id="survey-form">
+        <label for="name-label" id="name-label">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+        <label for="email-label" id="email-label">Email Address:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br><br>
+        <label for="number-label" id="number-label">Number:</label><br>
+        <input type="number" id="number" placeholder="Enter a number" min="0" max="10" required><br>
+        <h2>Choose Happiness</h2>
+        <label for="">Live a good life</label>
+        <input type="checkbox" value="1">
+        <label for="">Laugh forever</label>
+        <input type="checkbox" value="2">
+        <label for="">Be happy</label>
+        <input type="checkbox" value="3">
+        <h2>choose:</h2>
+        <label for="name">Manchester United lose in UCL finals, but finish top 4 PL</label>
+        <input type="radio" name="selection" value="1"><br>
+        <label for="name">Manchester United win UCL and relegate PL</label>
+        <input type="radio" name="selection" value="2"><br>
+        <label for="name">Aston Villa win PL</label>
+        <input type="radio" name="selection" value="3"><br>
+        <label for="name">Spurs win PL</label>
+        <input type="radio" name="selection" value="4">
+            <p>
+                <label for="">Select favorite food</label>
+                <select name="name" id="dropdown">
+                    <option value="1">Rice</option>
+                    <option value="2">Amala</option>
+                    <option value="3">Beans</option>
+                    <option value="4">Semo</option>
+                    <option value="5">Yam</option>
+                    <option value="6">Eba</option>
+                </select>
+            </p>
+        <legend for="comments">Comments</legend>
+        <textarea name="comments" id="" cols="50" rows="10"></textarea><br><br>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
